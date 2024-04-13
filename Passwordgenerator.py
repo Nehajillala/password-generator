@@ -1,6 +1,6 @@
 import random
 import string
-password_length =int(input("enter any length in number:"))
+password_length =int(input("enter any length in number format:"))
 characters ="!@#$%^&*()_.|~" + string.ascii_letters + string.digits
 password=""
 for i in range(password_length):
